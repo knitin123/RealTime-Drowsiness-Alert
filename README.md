@@ -38,15 +38,15 @@ Drowsiness behind the wheel is one of the leading causes of road accidents. This
 ```
 Driver-Drowsiness-Detection/
 │
-├── Data Preparation_part-1.ipynb        # Image preprocessing and dataset setup
-├── Model Training_part-2.ipynb          # Training InceptionV3 model on eye state data
-├── Main_part-3.ipynb                    # Real-time drowsiness detection using webcam
-├── app.py                               # App interface or wrapper (optional deployment entry)
-├── model.h5                             # Trained eye state detection model (output of part-2)
-├── alarm.wav                            # Sound file for drowsiness alert
-├── MRL DataSet Annotations of input images.txt  # Annotations or metadata related to image dataset
+├── Data Preparation_part-1.ipynb        
+├── Model Training_part-2.ipynb         
+├── Main_part-3.ipynb                 
+├── app.py                          
+├── model.h5                     
+├── alarm.wav                      
+├── MRL DataSet Annotations of input images.txt  
 ├── Mini Project Driver Drowsiness.pptx  # Project presentation (overview and demo slides)
-├── README.md                            # Project description and usage guide
+├── README.md                             
 ```
 
 ---
@@ -86,13 +86,7 @@ Alternatively, you can run the app interface using:
 ```bash
 python app.py
 ```
-
-Ensure:
-- Webcam is accessible
-- Trained model is available at the specified path
-- Haar cascade file for eye detection is in place
-- `alarm.wav` is in the working directory
-
+ 
 ---
 
 ## Model Details
@@ -104,19 +98,10 @@ Ensure:
 
 ---
 
-## Limitations & Future Scope
-
-- Currently detects only eye-based drowsiness (no yawning or head tilt).
-- Detection might be affected by lighting conditions or obstructions (e.g., glasses).
-- Future improvements could include:
-  - Incorporation of multiple facial cues
-  - Robustness to different lighting conditions
-  - Mobile or embedded deployment
-
+ 
 ---
 
 ## Author
-
-Sabhavath Yashwanth  
+Khandgonda Nitin
 B.Tech + M.Tech Dual Degree  
 IIIT Gwalior
